@@ -8,12 +8,11 @@ export default function AppRouter() {
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<IndexPage />} index/>
-          <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path="/" element={<IndexPage />} index />
+          <Route path="/favoritos" element={<FavoritesPage />} />
         </Route>
       </Routes>
     </Router>
   )
 }
 
-    

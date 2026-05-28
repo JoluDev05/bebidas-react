@@ -6,6 +6,5 @@ export default function IndexPage() {
     <>
       <h1> Inicio </h1>
     </>
-    
   )
 }
